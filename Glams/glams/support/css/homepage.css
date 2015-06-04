@@ -1,0 +1,41 @@
+body{
+    background: url(/support/images/homepagebg.jpg)
+                              no-repeat
+                              center
+                              top
+                              fixed;
+    -webkit-background-size: auto 100%;
+    -moz-background-size: auto 100%;
+    -o-background-size: auto 100%;
+    background-size: auto 100%;
+    background-color: #000;
+    font-size:13px;
+}
+ul{padding:0;}
+
+div.wrapper {
+            position:absolute;
+            padding-left:45%;
+            padding-top:3%;}
+#menu{
+    width:200px; 
+}
+.menu_head {
+    text-decoration:none;  
+    padding:10px; 
+    display:block;
+    width:250px; 
+}
+
+.menu_head, .menu_body li{ 
+    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#B0C4DE), to(white));  /* Safari 4-5, Chrome 1-9 */
+    background: -webkit-linear-gradient(top, white, #B0C4DE);  /* Safari 5.1, Chrome 10+ */
+    background: -moz-linear-gradient(   top, white, #B0C4DE); /* Firefox 3.6+ */
+    background: -ms-linear-gradient(     top, white, #B0C4DE); /* IE 10 */
+    background: -o-linear-gradient(       top,  white, #B0C4DE);/* Opera 11.10+ */
+    border-radius:8px
+}
+
+.menu_body {display:none; width:140px; padding: 0px;}
+
+.menu_body li a{color:#000000; text-decoration:none; padding:10px; display:block;}

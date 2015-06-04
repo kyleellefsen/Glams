@@ -1,43 +1,38 @@
-# Windows image file caches
-Thumbs.db
-ehthumbs.db
+#############
+## GLAMS specific
+#############
+/**/config.txt
+*/glams_backup_script.sh
+*/pyc
 
-# Folder config file
-Desktop.ini
+#############
+## Python
+#############
 
-# Recycle Bin used on file shares
-$RECYCLE.BIN/
+*.py[co]
 
-# Windows Installer files
-*.cab
-*.msi
-*.msm
-*.msp
+# Packages
+*.egg
+*.egg-info
+*.pyc
+dist/
+build/
+eggs/
+parts/
+var/
+sdist/
+develop-eggs/
+.installed.cfg
 
-# Windows shortcuts
-*.lnk
+# Installer logs
+pip-log.txt
 
-# =========================
-# Operating System Files
-# =========================
+# Unit test / coverage reports
+.coverage
+.tox
 
-# OSX
-# =========================
+#Translations
+*.mo
 
-.DS_Store
-.AppleDouble
-.LSOverride
-
-# Thumbnails
-._*
-
-# Files that might appear on external disk
-.Spotlight-V100
-.Trashes
-
-# Directories potentially created on remote AFP share
-.AppleDB
-.AppleDesktop
-Network Trash Folder
-Temporary Items
-.apdisk
+#Mr Developer
+.mr.developer.cfg

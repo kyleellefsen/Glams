@@ -1,0 +1,4 @@
+include *.txt *.py
+recursive-include glams *.js *.css *.png *.jpg *.svg *.gif *.py
+recursive-include backups *.py
+prune */config.txt
