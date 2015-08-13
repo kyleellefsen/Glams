@@ -9,7 +9,7 @@ def glamsTemplate(article, username=None, resources='', rightbar=''):
     webpage="""<!DOCTYPE HTML>
             <html>
             <head>
-                <title>GLAMS</title>
+                <title>Glams</title>
                 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
                 <link href='http://fonts.googleapis.com/css?family=Belleza' rel='stylesheet' type='text/css'>
                 <link rel="stylesheet" type="text/css" href="/support/css/almanacstyle.css" />
@@ -26,7 +26,7 @@ def glamsTemplate(article, username=None, resources='', rightbar=''):
                 <div class='bubble' style='display:none;'></div>
                 <div id="everything">
                 <header>
-                        <div id='logo'><a href='/'> <p style="color: white;font-family:'Belleza', sans-serif;">GLAMS Database</p> </a></div>
+                        <div id='logo'><a href='/'> <p style="color: white;font-family:'Belleza', sans-serif;">Glams Database</p> </a></div>
              <!--       <form id='topsearchform' method="post"  action="/search/" class="searchform">
                         <input class="searchfield" name="tags" type="text" value="Search..." onfocus="if (this.value == 'Search...') {this.value = '';}" onblur="if (this.value == '') {this.value = 'Search...';}" />
                         <input class="searchbutton" type="submit" value="Go" />
@@ -50,7 +50,7 @@ def glamsTemplate(article, username=None, resources='', rightbar=''):
     webpage+=rightbar+"""</aside>
                     </div>
                 </div>
-            <footer>Kyle Ellefsen. UC Irvine. © 2013-2014  </footer>
+            <footer><a href='http://scitru.com/kyleellefsen/'>Kyle Ellefsen. © 2015-2016  </footer>
             </body>
             </html>"""
     return webpage

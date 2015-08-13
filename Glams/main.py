@@ -40,7 +40,7 @@ try:
     <body>
     <div class=wrapper>
         <div id='menu'>
-            <h2 class="menu_head">GLAMS<p style='color:grey;padding-left: 30px;'>Gandhi Lab Animal Management System</p></h2>
+            <h2 class="menu_head">Glams</h2>
             <ul class="menu_body"> 
                 <li><a href="/database/">Database</a></li>
                 <li><a href="/info/">Information</a></li>
@@ -97,6 +97,6 @@ config={
     }
 cherrypy.config.update({
         'server.socket_host': '0.0.0.0',
-        'server.socket_port': 80}) #To bind on port 80, you must have root priveliges.  To run it in the wild, bind to port 80.  For testing, do port 8080 .
+        'server.socket_port': 80}) #To bind on port 80, you must have root privileges.  To run it in the wild, bind to port 80.  For testing, do port 8080 .
 
 cherrypy.quickstart(Root(), config=config)
