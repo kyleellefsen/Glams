@@ -13,11 +13,59 @@ Glams
 :Description:  
     Glams is a browser based animal management system, designed for managing mice colonies in a university research settings.  Rather than keeping track of breeding, genotyping, planned and completed experiments in a spreadsheet, Glams enables researches to store all this information in a MySQL database and manipulate it in your browser.
 
+
+Overview
+========
+
 Glams is organized into two 'views': Mouse view and Cage view.  You can choose which categories are displayed in each view.  
 
 .. image:: glams/docs/img/glams0.JPG
     :width: 200px
     :align: center
+
+In Mouse view, each row represents a mouse.  Double click on a column header allows you to filter that column.  For example, you can filter by age to find mice in a given age range.  If you are displaying categories having to do with experiments, each row represents a particular experiments.  This allows you to quickly look through all the experiments you've performed.  
+
+.. image:: glams/docs/img/glams1.JPG
+    :width: 200px
+    :align: center
+
+In Cage view, each row represents a cage.  You can see the residents of each cage as colored rectangles.  Blue indicates male mice, red indicates females, yellow indicates unknown gender.  A black box indicates an experiment has been planned or performed.
+
+.. image:: glams/docs/img/glams2.JPG
+    :width: 200px
+    :align: center
+
+To edit information about a mouse, click on that mouse's name.  A dialog will pop up with detailed editable information.
+
+
+.. image:: glams/docs/img/glams3.JPG
+    :width: 200px
+    :align: center
+
+You can edit cages the same way.
+
+.. image:: glams/docs/img/glams4.JPG
+    :width: 200px
+    :align: center
+
+When editing cage information, clicking the 'History' tab displays the automatically generated history of that cage.
+
+.. image:: glams/docs/img/glams5.JPG
+    :width: 200px
+    :align: center
+
+Clicking on the 'Residents' tab displays the current residents of that cage.  If you open multiple cages, you can transfer mice by dragging and dropping from one cage to another.  This transfer is saved in the database.  
+
+.. image:: glams/docs/img/glams6.JPG
+    :width: 200px
+    :align: center
+
+Clicking on the +PL button in the 'Resident's tab adds a pup litter to that cage.  Clicking on that pup litter will give you the option to separate it into any combination of males, females, or unknowns.  
+
+.. image:: glams/docs/img/glams7.JPG
+    :width: 200px
+    :align: center
+
 
 
 INSTALLATION FOR WINDOWS
