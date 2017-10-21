@@ -38,33 +38,31 @@ In Cage view, each row represents a cage.  You can see the residents of each cag
 To edit information about a mouse, click on that mouse's name.  A dialog will pop up with detailed editable information.
 
 
-.. image:: glams/docs/img/glams3.JPG
+.. image:: glams/docs/img/glams4.JPG
     :width: 200px
     :align: center
 
 You can edit cages the same way.
 
-.. image:: glams/docs/img/glams4.JPG
+.. image:: glams/docs/img/glams5.JPG
     :width: 200px
     :align: center
 
 When editing cage information, clicking the 'History' tab displays the automatically generated history of that cage.
 
-.. image:: glams/docs/img/glams5.JPG
+.. image:: glams/docs/img/glams6.JPG
     :width: 200px
     :align: center
 
 Clicking on the 'Residents' tab displays the current residents of that cage.  If you open multiple cages, you can transfer mice by dragging and dropping from one cage to another.  This transfer is saved in the database.  
 
-.. image:: glams/docs/img/glams6.JPG
+.. image:: glams/docs/img/glams7.JPG
     :width: 200px
     :align: center
 
 Clicking on the +PL button in the 'Resident's tab adds a pup litter to that cage.  Clicking on that pup litter will give you the option to separate it into any combination of males, females, or unknowns.  
 
-.. image:: glams/docs/img/glams7.JPG
-    :width: 200px
-    :align: center
+
 
 
 
