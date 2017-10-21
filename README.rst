@@ -11,7 +11,13 @@ Glams
     2015.06.04
 
 :Description:  
-    This program creates a MySQL database containing mouse colony information. It also contains a web server which, when launched, allows users to retrieve and update information on the database. 
+    Glams is a browser based animal management system, designed for managing mice colonies in a university research settings.  Rather than keeping track of breeding, genotyping, planned and completed experiments in a spreadsheet, Glams enables researches to store all this information in a MySQL database and manipulate it in your browser.
+
+Glams is organized into two 'views': Mouse view and Cage view.  You can choose which categories are displayed in each view.  
+
+.. image:: glams/docs/img/glams0.JPG
+    :width: 200px
+    :align: center
 
 
 INSTALLATION FOR WINDOWS
