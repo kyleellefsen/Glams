@@ -82,7 +82,7 @@ INSTALLATION FOR WINDOWS
    - Set 'Role' as ``DB Admin``.  
    - Leave authentication as ``MySQL``.  This user account will be in Glams to communicate with MySQL, and it will be saved as plaintext, so make sure it is a password you don't use for anything else. Remember it for a later step.
    - Run Windows Service as a Standard System Account. This automatically starts MySQL on Windows startup.
-#. Install Glams using the `installer <https://db.tt/pKfWCj4V>`_.
+#. Install Glams using the `installer <https://www.dropbox.com/s/1a75oiyue8soom7/GLAMS%20setup.exe?dl=1>`_.
 #. Run Glams by clicking the new icon on your desktop.
 #. Open a browser, go to http://localhost/, enter the user and password. 
 #. Restart Glams and refresh your browser.
